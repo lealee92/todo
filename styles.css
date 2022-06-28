@@ -1,0 +1,21 @@
+button {
+  border: none;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.list-container {
+  display: flex;
+  gap: 20px;
+}
+
+.list-container > * {
+  padding: 0.5rem;
+}
